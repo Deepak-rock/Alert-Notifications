@@ -1,1 +1,15 @@
 /* Write your CSS here */
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+  padding: 20px 30px;
+  margin: 10px 0;
+}
+.close-icons {
+  font-size: 22px;
+  color: #475569;
+}

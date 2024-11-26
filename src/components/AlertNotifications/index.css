@@ -1,1 +1,74 @@
 /* Write your CSS here */
+.alert-notifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+.responsive-container {
+  width: 100%;
+  max-width: 1100px;
+}
+.heading {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #0f172a;
+}
+.notifications-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.icons {
+  font-size: 28px;
+  margin: 10px 0;
+}
+.notification-heading {
+  line-height: 1px;
+  font-size: 28px;
+  font-family: 'roboto';
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.notification-description {
+  font-size: 16px;
+  font-family: 'roboto';
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+  .icons {
+    font-size: 34px;
+  }
+  .notification-heading {
+    font-size: 34px;
+  }
+  .notification-description {
+    font-size: 18px;
+  }
+}
